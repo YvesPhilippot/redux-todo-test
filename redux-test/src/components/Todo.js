@@ -8,7 +8,7 @@ const Todo = ({ onClick, completed, text, previousState }) => (
       textDecoration: completed ? 'line-through' : 'none'
     }}
   >
-    {text} - Etat précédent {previousState}
+    {text} - <i>Etat précédent {previousState}</i>
   </li>
 )
 
